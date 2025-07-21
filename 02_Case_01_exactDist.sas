@@ -11,7 +11,7 @@
 * Gross premium;
 %let G = 2947.72;
 
-%macro allcombinatios(n=);
+%MACRO allcombinatios(n=);
 /*
 Purpose: To calculate all the states of the world for each employee 
 n: number of employees
@@ -84,7 +84,7 @@ n: number of employees
 		delete death alive;
 	run;
 
-%mend;
+%MEND;
 
 * Execute the macro;
 %allcombinatios(n=&ne.);
