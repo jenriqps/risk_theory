@@ -102,3 +102,6 @@ proc sgplot data=mylib.aggregateLossSample;
 	histogram aggloss;
 run;
 title;
+
+
+
